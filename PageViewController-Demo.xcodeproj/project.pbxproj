@@ -14,8 +14,8 @@
 		65756A722A654958005C29B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65756A712A654958005C29B3 /* Assets.xcassets */; };
 		65756A752A654958005C29B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65756A732A654958005C29B3 /* LaunchScreen.storyboard */; };
 		65756A7E2A6549D2005C29B3 /* PageContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65756A7D2A6549D2005C29B3 /* PageContentsViewController.swift */; };
-		65756A802A655127005C29B3 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65756A7F2A655127005C29B3 /* TutorialViewController.swift */; };
 		65756A832A658E17005C29B3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 65756A822A658E17005C29B3 /* SnapKit */; };
+		6577291C2A66CA7400FAE93E /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577291B2A66CA7400FAE93E /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		65756A742A654958005C29B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65756A762A654958005C29B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65756A7D2A6549D2005C29B3 /* PageContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentsViewController.swift; sourceTree = "<group>"; };
-		65756A7F2A655127005C29B3 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		6577291B2A66CA7400FAE93E /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			children = (
 				65756A7C2A65495E005C29B3 /* App */,
 				65756A6C2A654957005C29B3 /* StartViewController.swift */,
-				65756A7F2A655127005C29B3 /* TutorialViewController.swift */,
+				6577291B2A66CA7400FAE93E /* TutorialViewController.swift */,
 				65756A7D2A6549D2005C29B3 /* PageContentsViewController.swift */,
 			);
 			path = "PageViewController-Demo";
@@ -160,8 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6577291C2A66CA7400FAE93E /* TutorialViewController.swift in Sources */,
 				65756A6D2A654957005C29B3 /* StartViewController.swift in Sources */,
-				65756A802A655127005C29B3 /* TutorialViewController.swift in Sources */,
 				65756A692A654957005C29B3 /* AppDelegate.swift in Sources */,
 				65756A6B2A654957005C29B3 /* SceneDelegate.swift in Sources */,
 				65756A7E2A6549D2005C29B3 /* PageContentsViewController.swift in Sources */,
